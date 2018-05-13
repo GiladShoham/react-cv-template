@@ -1,5 +1,20 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import '../../assets/theme/styles.css';
+
+/**
+ * @render react
+ * @name EducationDetails
+ * @description EducationDetails description
+ * @example
+ * <EducationDetails  
+    list={[{ 
+      name: 'Computer programming', 
+      school: 'IDF - Basmach (Mamram)', 
+      date: '2006-2007' 
+    }]}
+  />
+ */
 
 export default class EducationDetails extends Component {
   renderListItem(item, i) {

@@ -6,6 +6,32 @@ import ContactDetails from './contactDetails';
 import EducationDetails from './educationDetails';
 import LanguageDetails from './languageDetails';
 import Interests from './interests';
+import '../../assets/theme/styles.css';
+
+/**
+ * @render react
+ * @name Sidebar
+ * @description Sidebar description
+ * @example
+ * <Sidebar  
+    name="Gilad Shoham"
+    title="Dev & Open source Leas=der"
+    imagePath="https://en.gravatar.com/userimage/51779316/975a7ab5400cfac3e90be71f242241eb.jpg?size=200"
+    mail="shoham.gilad@gmail.com"
+    phoneNumber="+972-050-xxxxxx"
+    website="www.giladshoha.com" 
+    linkedin="https://www.linkedin.com/in/shohamgilad/" 
+    github="https://github.com/GiladShoham" 
+    twitter="https://twitter.com/ShohamGilad?lang=en"
+    educationDetails={{list: [{ 
+      name: 'Computer programming', 
+      school: 'IDF - Basmach (Mamram)', 
+      date: '2006-2007' 
+    }]}}
+    languages={{list:[{ name: 'Hebrew', level: 'Native' }, { name: 'English', level: 'Professional' }]}}
+    interests={{list:['Cycling', 'Technologies', 'Reading']}}
+  />
+ */
 
 export default class Sidebar extends Component {
   renderInterests() {

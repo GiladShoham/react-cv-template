@@ -50,5 +50,60 @@
         "mainFile": "src/components/sidebar/profileContainer.js",
         "origin": "AUTHORED"
     },
+    "giladshoham.cv/sidebar/contact-details@0.0.4": {
+        "files": [
+            {
+                "relativePath": "src/components/sidebar/contactDetails.js",
+                "test": false,
+                "name": "contactDetails.js"
+            }
+        ],
+        "mainFile": "src/components/sidebar/contactDetails.js",
+        "origin": "AUTHORED"
+    },
+    "giladshoham.cv/sidebar/education-details@0.0.3": {
+        "files": [
+            {
+                "relativePath": "src/components/sidebar/educationDetails.js",
+                "test": false,
+                "name": "educationDetails.js"
+            }
+        ],
+        "mainFile": "src/components/sidebar/educationDetails.js",
+        "origin": "AUTHORED"
+    },
+    "giladshoham.cv/sidebar/language-details@0.0.2": {
+        "files": [
+            {
+                "relativePath": "src/components/sidebar/languageDetails.js",
+                "test": false,
+                "name": "languageDetails.js"
+            }
+        ],
+        "mainFile": "src/components/sidebar/languageDetails.js",
+        "origin": "AUTHORED"
+    },
+    "giladshoham.cv/sidebar/interests@0.0.2": {
+        "files": [
+            {
+                "relativePath": "src/components/sidebar/interests.js",
+                "test": false,
+                "name": "interests.js"
+            }
+        ],
+        "mainFile": "src/components/sidebar/interests.js",
+        "origin": "AUTHORED"
+    },
+    "giladshoham.cv/sidebar/index@0.0.12": {
+        "files": [
+            {
+                "relativePath": "src/components/sidebar/index.js",
+                "test": false,
+                "name": "index.js"
+            }
+        ],
+        "mainFile": "src/components/sidebar/index.js",
+        "origin": "AUTHORED"
+    },
     "version": "0.12.13"
 }

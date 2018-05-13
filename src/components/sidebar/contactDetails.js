@@ -1,6 +1,21 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import '../../assets/theme/styles.css';
 
+/**
+ * @render react
+ * @name ProfileContainer
+ * @description ProfileContainer description
+ * @example
+ * <ProfileContainer  
+    mail="shoham.gilad@gmail.com"
+    phoneNumber="+972-050-xxxxxx"
+    website="www.giladshoha.com" 
+    linkedin="https://www.linkedin.com/in/shohamgilad/" 
+    github="https://github.com/GiladShoham" 
+    twitter="https://twitter.com/ShohamGilad?lang=en"
+  />
+ */
 export default class ContactDetails extends Component {
   renderListItem(className, data, iconName, type) {
     if (!data) { return null; }

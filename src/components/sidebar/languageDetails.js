@@ -1,5 +1,16 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import '../../assets/theme/styles.css';
+
+/**
+ * @render react
+ * @name LanguageDetails
+ * @description LanguageDetails description
+ * @example
+ * <LanguageDetails  
+    list={[{ name: 'Hebrew', level: 'Native' }, { name: 'English', level: 'Professional' }]}
+  />
+ */
 
 export default class LanguageDetails extends Component {
   renderListItem(item, i) {

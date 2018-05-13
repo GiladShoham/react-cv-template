@@ -1,7 +1,17 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import '../../assets/theme/styles.css';
 
-export default class LanguageDetails extends Component {
+/**
+ * @render react
+ * @name Interests
+ * @description Interests description
+ * @example
+ * <Interests  
+    list={['Cycling', 'Technologies', 'Reading']}
+  />
+ */
+export default class Interests extends Component {
   renderListItem(item) {
     return (
       <li>
@@ -23,7 +33,7 @@ export default class LanguageDetails extends Component {
   }
 }
 
-LanguageDetails.propTypes = {
+Interests.propTypes = {
   list: PropTypes.arrayOf(PropTypes.string).isRequired,
   title: PropTypes.string.isRequired
 };
