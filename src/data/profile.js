@@ -12,7 +12,19 @@ const profile = {
   educationDetails: {
     sectionTitle: '',
     list: [{ 
-      name: 'Computer programming', 
+      name: 'MBA (93)', 
+      school: 'The Open University', 
+      date: '2014-2017' 
+    },{ 
+      name: 'Computer Software Engineering & Management (90)', 
+      school: 'The Open University', 
+      date: '2008-2012' 
+    },{ 
+      name: 'Business Analysis (90)', 
+      school: 'IDF - Basmach (Mamram)', 
+      date: '2011-2011' 
+    },{ 
+      name: 'Computer programming (88)', 
       school: 'IDF - Basmach (Mamram)', 
       date: '2006-2007' 
     }]
