@@ -1,26 +1,29 @@
+
 const profile = {
-  name: 'S.Berkay Aydın',
-  title: 'Full Stack Developer',
-  mail: 'sbaydin06@gmail.com',
-  phoneNumber: '+90 (507) 808 4130',
-  website: 'sbaydin.com',
-  linkedin: 'linkedin.com/in/sbaydin',
-  github: 'github.com/sbayd',
-  imagePath: 'profile.png',
-  twitter: null,
+  name: 'Gilad Shoham',
+  title: 'Dev & Open Source Leader @bit',
+  mail: 'shoham.gilad@gmail.com',
+  phoneNumber: '+972-(052)-xxxxxxx',
+  website: 'medium.com/@giladshoham',
+  linkedin: 'linkedin.com/in/shohamgilad',
+  github: 'github.com/GiladShoham',
+  imagePath: 'https://en.gravatar.com/userimage/51779316/975a7ab5400cfac3e90be71f242241eb.jpg?size=200',
+  twitter: 'twitter.com/ShohamGilad',
   educationDetails: {
     sectionTitle: '',
-    list: [
-      { name: 'BSc in CEIT', school: 'Hacettepe University', date: '2013-Present' },
-    ]
+    list: [{ 
+      name: 'Computer programming', 
+      school: 'IDF - Basmach (Mamram)', 
+      date: '2006-2007' 
+    }]
   },
   languages: {
     sectionTitle: 'Languages',
-    list: [{ name: 'Turkish', level: 'Native' }, { name: 'English', level: 'Professional' }, { name: 'Spanish', level: 'Beginner' }]
+    list: [{ name: 'Hebrew', level: 'Native' }, { name: 'English', level: 'Professional' }]
   },
   interests: {
     sectionTitle: '',
-    list: ['Pipes', 'Analog Photography', 'Cooking', 'Archery', 'Poems', 'Drums']
+    list: ['Cycling', 'Technologies', 'Reading']
   }
 };
 
