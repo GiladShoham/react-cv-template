@@ -8,7 +8,7 @@ After cloning repository, just
 - npm build / yarn build
 
 Sample Page
-[http://sbaydin.com](http://sbaydin.com/)
+[http://gilad-resume.surge.sh/](http://gilad-resume.surge.sh/)
 
 ##Credits
 - [React](https://facebook.github.io/react/)
