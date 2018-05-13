@@ -1,0 +1,9 @@
+{
+    "env": {
+        "compiler": "bit.envs/bundlers/webpack@0.0.12",
+        "tester": "none"
+    },
+    "dependencies": {},
+    "componentsDefaultDirectory": "components/{namespace}/{name}",
+    "packageManager": "npm"
+}
