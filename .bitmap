@@ -34,5 +34,21 @@
         "mainFile": "src/assets/theme/styles.css",
         "origin": "AUTHORED"
     },
+    "giladshoham.cv/sidebar/profile-container@0.0.5": {
+        "files": [
+            {
+                "relativePath": "src/assets/profile.png",
+                "test": false,
+                "name": "profile.png"
+            },
+            {
+                "relativePath": "src/components/sidebar/profileContainer.js",
+                "test": false,
+                "name": "profileContainer.js"
+            }
+        ],
+        "mainFile": "src/components/sidebar/profileContainer.js",
+        "origin": "AUTHORED"
+    },
     "version": "0.12.13"
 }
