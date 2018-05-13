@@ -12,7 +12,7 @@ import '../../assets/theme/styles.css';
 export default class ProfileContainer extends Component {
   renderProfilePicture(imagePath) {
     if (imagePath) {
-      return (<img className="profile" src={imagePath} alt="" style={{ maxWidth: 185 }} />);
+      return (<img className="profile" src={imagePath} alt="" style={{ maxWidth: 185, 'border-radius': '50%' }} />);
     }
     return null;
   }
