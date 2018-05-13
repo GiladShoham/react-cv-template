@@ -1,7 +1,24 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Section from './shared/section';
+import '../assets/theme/styles.css';
 
+
+/**
+ * @render react
+ * @name Experiences
+ * @description Experiences description
+ * @example
+ * <Experiences list={[
+    {
+      title: 'Lead Software Developer',
+      company: 'JotForm',
+      description: 'I\'m working as a lead developer at JotForm Source team. We are creating some amazing features for JotForm!',
+      companyLink: 'http://jotform.com',
+      companyShortDetail: '',
+      date: '2017.10 - Present'
+    }]} />
+ */
 export default class Experiences extends Component {
   renderListItem(item, i) {
     return (
