@@ -56,7 +56,29 @@
         "mainFile": "src/components/sidebar/interests.js",
         "origin": "AUTHORED"
     },
-    "giladshoham.cv/sidebar/contact-details@0.0.11": {
+    "giladshoham.cv/components/experiences@0.0.8": {
+        "files": [
+            {
+                "relativePath": "src/components/experiences.js",
+                "test": false,
+                "name": "experiences.js"
+            }
+        ],
+        "mainFile": "src/components/experiences.js",
+        "origin": "AUTHORED"
+    },
+    "giladshoham.cv/sidebar/profile-container@0.0.10": {
+        "files": [
+            {
+                "relativePath": "src/components/sidebar/profileContainer.js",
+                "test": false,
+                "name": "profileContainer.js"
+            }
+        ],
+        "mainFile": "src/components/sidebar/profileContainer.js",
+        "origin": "AUTHORED"
+    },
+    "giladshoham.cv/sidebar/contact-details@0.0.14": {
         "files": [
             {
                 "relativePath": "src/components/sidebar/contactDetails.js",
@@ -97,29 +119,7 @@
         "mainFile": "src/components/sidebar/contactDetails.js",
         "origin": "AUTHORED"
     },
-    "giladshoham.cv/sidebar/profile-container@0.0.8": {
-        "files": [
-            {
-                "relativePath": "src/components/sidebar/profileContainer.js",
-                "test": false,
-                "name": "profileContainer.js"
-            }
-        ],
-        "mainFile": "src/components/sidebar/profileContainer.js",
-        "origin": "AUTHORED"
-    },
-    "giladshoham.cv/components/experiences@0.0.8": {
-        "files": [
-            {
-                "relativePath": "src/components/experiences.js",
-                "test": false,
-                "name": "experiences.js"
-            }
-        ],
-        "mainFile": "src/components/experiences.js",
-        "origin": "AUTHORED"
-    },
-    "giladshoham.cv/sidebar/index@0.0.23": {
+    "giladshoham.cv/sidebar/index@0.0.26": {
         "files": [
             {
                 "relativePath": "src/components/sidebar/index.js",

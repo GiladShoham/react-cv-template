@@ -18,16 +18,16 @@ const twitter = 'https://storage.googleapis.com/bit-assets/geektime-resume/twitt
 
 /**
  * @render react
- * @name ProfileContainer
- * @description ProfileContainer description
+ * @name ContactDetails
+ * @description ContactDetails description
  * @example
- * <ProfileContainer  
+ * <ContactDetails  
     mail="shoham.gilad@gmail.com"
     phoneNumber="+972-050-xxxxxx"
-    website="www.giladshoha.com" 
-    linkedin="https://www.linkedin.com/in/shohamgilad/" 
-    github="https://github.com/GiladShoham" 
-    twitter="https://twitter.com/ShohamGilad?lang=en"
+    website="medium.com/@giladshoham" 
+    linkedin="linkedin.com/in/shohamgilad/" 
+    github="github.com/GiladShoham" 
+    twitter="twitter.com/ShohamGilad?lang=en"
   />
  */
 export default class ContactDetails extends Component {
@@ -51,7 +51,7 @@ export default class ContactDetails extends Component {
   }
   render() {
     return (
-      <div className="contact-container container-block" style={{background:"#42A8C0", padding: '30px'}}>
+      <div className="contact-container container-block" style={{background:"#42A8C0", padding: '30px', maxWidth: '267px'}}>
         <ul className="list-unstyled contact-list" style={{listStyle: "none"}}>
          {this.renderListItem('email', this.props.mail, envelope, 'email')}
           {this.renderListItem('phone', this.props.phoneNumber, phone, 'phone')}
