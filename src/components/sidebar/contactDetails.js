@@ -2,12 +2,19 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import '../../assets/theme/styles.css';
 
-import envelope from './icons/envelope.svg';
-import phone from './icons/phone.svg';
-import globe from './icons/globe.svg';
-import github from './icons/github.svg';
-import twitter from './icons/twitter.svg';
-import linkedin from './icons/linkedin.svg';
+// import envelope from './icons/envelope.svg';
+// import phone from './icons/phone.svg';
+// import globe from './icons/globe.svg';
+// import github from './icons/github.svg';
+// import twitter from './icons/twitter.svg';
+// import linkedin from './icons/linkedin.svg';
+
+const envelope = 'https://storage.googleapis.com/bit-assets/geektime-resume/envelope.svg';
+const github = 'https://storage.googleapis.com/bit-assets/geektime-resume/github.svg';
+const globe = 'https://storage.googleapis.com/bit-assets/geektime-resume/globe.svg';
+const linkedin = 'https://storage.googleapis.com/bit-assets/geektime-resume/linkedin.svg';
+const phone = 'https://storage.googleapis.com/bit-assets/geektime-resume/phone.svg';
+const twitter = 'https://storage.googleapis.com/bit-assets/geektime-resume/twitter.svg';
 
 /**
  * @render react
@@ -36,16 +43,16 @@ export default class ContactDetails extends Component {
         break;
     }
     return (
-      <li className={className}>
+      <li className={className} style={{marginBottom: "15px", fontFamily: 'Roboto', 'fontSize':'14px'}}>
         <img src={iconName} style={{display: 'inline', width: '15px', marginRight:'5px', marginBottom: '2px'}}/>
-        <a href={`//${href}`} target="_blank"> {data} </a>
+        <a href={`//${href}`} target="_blank" style={{color:"#fff", textDecoration: 'none'}}> {data} </a>
       </li>
     );
   }
   render() {
     return (
-      <div className="contact-container container-block">
-        <ul className="list-unstyled contact-list">
+      <div className="contact-container container-block" style={{background:"#42A8C0", padding: '30px'}}>
+        <ul className="list-unstyled contact-list" style={{listStyle: "none"}}>
          {this.renderListItem('email', this.props.mail, envelope, 'email')}
           {this.renderListItem('phone', this.props.phoneNumber, phone, 'phone')}
           {this.renderListItem('website', this.props.website, globe, 'link')}

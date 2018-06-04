@@ -19,10 +19,10 @@ import '../../assets/theme/styles.css';
     imagePath="https://en.gravatar.com/userimage/51779316/975a7ab5400cfac3e90be71f242241eb.jpg?size=200"
     mail="shoham.gilad@gmail.com"
     phoneNumber="+972-050-xxxxxx"
-    website="www.giladshoha.com" 
+    website="www.giladshoham.com" 
     linkedin="https://www.linkedin.com/in/shohamgilad/" 
     github="https://github.com/GiladShoham" 
-    twitter="https://twitter.com/ShohamGilad?lang=en"
+    twitter="https://twitter.com/ShohamGilad"
     educationDetails={{list: [{ 
       name: 'Computer programming', 
       school: 'IDF - Basmach (Mamram)', 
