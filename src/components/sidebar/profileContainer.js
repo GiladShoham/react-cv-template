@@ -18,10 +18,11 @@ export default class ProfileContainer extends Component {
   }
   render() {
     return (
-      <div className="profile-container">
+      <div className="profile-container" style={{ padding: '30px',textAlign: 'center', backgroundColor: '#328699', color: '#fff'}}>
         {this.renderProfilePicture(this.props.imagePath)}
         <h1 className="name" style={{ fontSize: 25 }}>{ this.props.name }</h1>
-        <h3 className="tagline"> { this.props.title } </h3>
+        <h3 className="tagline" style={{color:'#F5F5F5'}}> { this.props.title } 
+         </h3>
       </div>
     );
   }
