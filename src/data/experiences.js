@@ -14,9 +14,9 @@ export const experiences = {
       At Cocycles we are building the cutting edge of developer tools.
       Our mission it to allow developers to build code like Lego - focusing on design, easily composing
        small functional pieces of code together to create any functionality.`,
-      companyLink: 'http://www.bitsrc.io',    
+      companyLink: 'http://www.bitsrc.io',
       companyShortDetail: 'Components are building blocks You are the architect',
-      date: 'June 2017  -  Present'
+      date: 'June 2017 - Present'
     },
     {
       title: 'Co Founder & CTO',

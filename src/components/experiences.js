@@ -11,12 +11,19 @@ import '../assets/theme/styles.css';
  * @example
  * <Experiences list={[
     {
-      title: 'Lead Software Developer',
-      company: 'JotForm',
-      description: 'I\'m working as a lead developer at JotForm Source team. We are creating some amazing features for JotForm!',
-      companyLink: 'http://jotform.com',
-      companyShortDetail: '',
-      date: '2017.10 - Present'
+      title: 'Dev & Open Source Leader',
+      company: 'Bit (Cocycles)',
+      description: `Leading bit - An open source project which is the core technology of cocycles.
+      * Manage the team working on bit
+      * Working with the community - Approve PRs, Answer github issues.
+      * Talk in meetups and conferences
+      * Hands-on - developing the platform
+      At Cocycles we are building the cutting edge of developer tools.
+      Our mission it to allow developers to build code like Lego - focusing on design, easily composing
+       small functional pieces of code together to create any functionality.`,
+      companyLink: 'http://www.bitsrc.io',
+      companyShortDetail: 'Components are building blocks You are the architect',
+      date: 'June 2017 - Present'
     }]} />
  */
 export default class Experiences extends Component {

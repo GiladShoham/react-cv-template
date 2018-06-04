@@ -15,14 +15,14 @@ import '../../assets/theme/styles.css';
  * @example
  * <Sidebar  
     name="Gilad Shoham"
-    title="Dev & Open source Leas=der"
+    title="Dev & Open source Leader"
     imagePath="https://en.gravatar.com/userimage/51779316/975a7ab5400cfac3e90be71f242241eb.jpg?size=200"
     mail="shoham.gilad@gmail.com"
     phoneNumber="+972-050-xxxxxx"
-    website="www.giladshoham.com" 
-    linkedin="https://www.linkedin.com/in/shohamgilad/" 
-    github="https://github.com/GiladShoham" 
-    twitter="https://twitter.com/ShohamGilad"
+    website="medium.com/@giladshoham" 
+    linkedin="linkedin.com/in/shohamgilad" 
+    github="github.com/GiladShoham" 
+    twitter="twitter.com/ShohamGilad"
     educationDetails={{list: [{ 
       name: 'Computer programming', 
       school: 'IDF - Basmach (Mamram)', 
