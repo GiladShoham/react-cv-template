@@ -1,6 +1,6 @@
 {
     "env": {
-        "compiler": "bit.envs/bundlers/webpack@0.0.12",
+        "compiler": "bit.envs/bundlers/webpack@0.0.13",
         "tester": "none"
     },
     "dependencies": {},
