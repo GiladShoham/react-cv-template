@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import '../../assets/theme/styles.css';
 
+import envelope from './icons/envelope.svg';
+import phone from './icons/phone.svg';
+import globe from './icons/globe.svg';
+import github from './icons/github.svg';
+import twitter from './icons/twitter.svg';
+import linkedin from './icons/linkedin.svg';
+
 /**
  * @render react
  * @name ProfileContainer
@@ -30,7 +37,7 @@ export default class ContactDetails extends Component {
     }
     return (
       <li className={className}>
-        <i className={`fa ${iconName}`} />
+        <img src={iconName} style={{display: 'inline', width: '15px', marginRight:'5px', marginBottom: '2px'}}/>
         <a href={`//${href}`} target="_blank"> {data} </a>
       </li>
     );
@@ -39,12 +46,12 @@ export default class ContactDetails extends Component {
     return (
       <div className="contact-container container-block">
         <ul className="list-unstyled contact-list">
-          {this.renderListItem('email', this.props.mail, 'fa-envelope', 'email')}
-          {this.renderListItem('phone', this.props.phoneNumber, 'fa-phone', 'phone')}
-          {this.renderListItem('website', this.props.website, 'fa-globe', 'link')}
-          {this.renderListItem('linkedin', this.props.linkedin, 'fa-linkedin', 'link')}
-          {this.renderListItem('github', this.props.github, 'fa-github', 'link')}
-          {this.renderListItem('twitter', this.props.twitter, 'fa-twitter', 'link')}
+         {this.renderListItem('email', this.props.mail, envelope, 'email')}
+          {this.renderListItem('phone', this.props.phoneNumber, phone, 'phone')}
+          {this.renderListItem('website', this.props.website, globe, 'link')}
+          {this.renderListItem('linkedin', this.props.linkedin, linkedin, 'link')}
+          {this.renderListItem('github', this.props.github, github, 'link')}
+          {this.renderListItem('twitter', this.props.twitter, twitter, 'link')}
         </ul>
       </div>
     );
