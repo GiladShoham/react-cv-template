@@ -63,6 +63,7 @@ export default class Projects extends Component {
             })
           }
         </div>
+        <img src='https://storage.googleapis.com/bit-assets/geektime-resume/github-contribution.png' style={{maxWidth: '608px'}}/>
       </Section>
     );
   }
