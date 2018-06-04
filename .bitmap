@@ -37,11 +37,6 @@
     "giladshoham.cv/sidebar/profile-container@0.0.5": {
         "files": [
             {
-                "relativePath": "src/assets/profile.png",
-                "test": false,
-                "name": "profile.png"
-            },
-            {
                 "relativePath": "src/components/sidebar/profileContainer.js",
                 "test": false,
                 "name": "profileContainer.js"
@@ -56,6 +51,36 @@
                 "relativePath": "src/components/sidebar/contactDetails.js",
                 "test": false,
                 "name": "contactDetails.js"
+            },
+            {
+                "relativePath": "src/components/sidebar/icons/envelope.svg",
+                "test": false,
+                "name": "envelope.svg"
+            },
+            {
+                "relativePath": "src/components/sidebar/icons/github.svg",
+                "test": false,
+                "name": "github.svg"
+            },
+            {
+                "relativePath": "src/components/sidebar/icons/globe.svg",
+                "test": false,
+                "name": "globe.svg"
+            },
+            {
+                "relativePath": "src/components/sidebar/icons/linkedin.svg",
+                "test": false,
+                "name": "linkedin.svg"
+            },
+            {
+                "relativePath": "src/components/sidebar/icons/phone.svg",
+                "test": false,
+                "name": "phone.svg"
+            },
+            {
+                "relativePath": "src/components/sidebar/icons/twitter.svg",
+                "test": false,
+                "name": "twitter.svg"
             }
         ],
         "mainFile": "src/components/sidebar/contactDetails.js",
