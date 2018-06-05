@@ -18,9 +18,9 @@ const twitter = 'https://storage.googleapis.com/bit-assets/geektime-resume/twitt
     mail="shoham.gilad@gmail.com"
     phoneNumber="+972-050-xxxxxx"
     website="medium.com/@giladshoham" 
-    linkedin="linkedin.com/in/shohamgilad/" 
+    linkedin="linkedin.com/in/shohamgilad" 
     github="github.com/GiladShoham" 
-    twitter="twitter.com/ShohamGilad?lang=en"
+    twitter="twitter.com/ShohamGilad"
   />
  */
 export default class ContactDetails extends Component {

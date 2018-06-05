@@ -67,7 +67,7 @@
         "mainFile": "src/components/experiences.js",
         "origin": "AUTHORED"
     },
-    "giladshoham.cv/sidebar/profile-container@0.0.11": {
+    "giladshoham.cv/sidebar/profile-container@0.0.12": {
         "files": [
             {
                 "relativePath": "src/components/sidebar/profileContainer.js",
@@ -78,7 +78,7 @@
         "mainFile": "src/components/sidebar/profileContainer.js",
         "origin": "AUTHORED"
     },
-    "giladshoham.cv/sidebar/contact-details@0.0.15": {
+    "giladshoham.cv/sidebar/contact-details@0.0.16": {
         "files": [
             {
                 "relativePath": "src/components/sidebar/contactDetails.js",
@@ -119,7 +119,7 @@
         "mainFile": "src/components/sidebar/contactDetails.js",
         "origin": "AUTHORED"
     },
-    "giladshoham.cv/sidebar/index@0.0.27": {
+    "giladshoham.cv/sidebar/index@0.0.28": {
         "files": [
             {
                 "relativePath": "src/components/sidebar/index.js",
