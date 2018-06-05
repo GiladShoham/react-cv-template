@@ -43,7 +43,7 @@ export default class ContactDetails extends Component {
         break;
     }
     return (
-      <li className={className} style={{marginBottom: "15px", fontFamily: 'Roboto', 'fontSize':'14px'}}>
+      <li className={className} style={{marginBottom: "15px", fontFamily: 'Roboto', 'fontSize':'14px', textAlign: 'left'}}>
         <img src={iconName} style={{display: 'inline', width: '15px', marginRight:'5px', marginBottom: '2px'}}/>
         <a href={`//${href}`} target="_blank" style={{color:"#fff", textDecoration: 'none'}}> {data} </a>
       </li>
