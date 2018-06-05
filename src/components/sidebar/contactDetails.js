@@ -2,13 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import '../../assets/theme/styles.css';
 
-// import envelope from './icons/envelope.svg';
-// import phone from './icons/phone.svg';
-// import globe from './icons/globe.svg';
-// import github from './icons/github.svg';
-// import twitter from './icons/twitter.svg';
-// import linkedin from './icons/linkedin.svg';
-
 const envelope = 'https://storage.googleapis.com/bit-assets/geektime-resume/envelope.svg';
 const github = 'https://storage.googleapis.com/bit-assets/geektime-resume/github.svg';
 const globe = 'https://storage.googleapis.com/bit-assets/geektime-resume/globe.svg';
